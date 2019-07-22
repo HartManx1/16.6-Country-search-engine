@@ -17,11 +17,10 @@ function showCountriesList(resp) {
     countriesList.innerHTML = '';
 
     resp.forEach(function (item) {
-        var liEl = document.createElement('li');
-        liEl.innerHTML += "<span>Country name: <br></span>" + item.name + "<br>"
-        liEl.innerHTML += "Capital: " + item.capital + "<br><br>"
-
-
+        var liEl = document.createElement('div');
+        liEl.innerHTML += "<span><h3>Country name: </h3></span>" + item.name;
+        liEl.innerHTML += "<span>Capital: </span>" + item.capital;
+        
         countriesList.appendChild(liEl);
     });
 }

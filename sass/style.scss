@@ -10,9 +10,17 @@ ul {
 }
 
 span {
-    font-size: 23px;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 7px;
 }
 
 button {
     font-family: 'Source Code Pro', monospace;
+}
+
+h3 {
+    margin: 0;
+    padding-top: 26px;
 }
