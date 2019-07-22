@@ -1,8 +1,8 @@
 {
-  "name": "zadanie3",
+  "name": "16.6-Country-search-engine",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "script.js",
   "scripts": {
     "test": "npm-run-all test:*",
     "test:html": "globstar nu-html-checker *.html",
